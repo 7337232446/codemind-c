@@ -1,19 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    int m,n;
-    scanf("%d%d",&m,&n);
-    if(m%2!=0&&n%2!=0)
-    {
-        printf("Player 2");
-    }
-    else
-    //else if(m>=2&&m>=2)
+    int a,b;
+    scanf("%d%d",&a,&b);
+    if(a%2==0||b%2==0)
     {
         printf("Player 1");
     }
-    //else
-    //{
-        //printf("There's no move to make");
-    //}
+    else
+    {
+        printf("Player 2");
+    }
 }
